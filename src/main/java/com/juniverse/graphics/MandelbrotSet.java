@@ -34,11 +34,11 @@ public class MandelbrotSet extends JPanel {
 
     private int maxx;
     private int maxy;
-    private final Palette[] paleta;
+    private final Palette[] palette;
 
-    /** Crea el panel y carga la paleta de 256 colores desde paleta.pal. */
+    /** Crea el panel y carga la paleta de 256 colores desde palette.pal. */
     public MandelbrotSet() {
-        this.paleta = load("paleta.pal");
+        this.palette = load("palette.pal");
         this.maxx = getWidth();
         this.maxy = getHeight();
     }
@@ -92,7 +92,7 @@ public class MandelbrotSet extends JPanel {
      * @param index posición en la paleta (0-255)
      */
     private Palette getColor(int index) {
-        return paleta[index];
+        return palette[index];
     }
 
     /**
