@@ -7,7 +7,7 @@ package com.juniverse.graphics;
  * @param r rojo (0-255)
  * @param g verde (0-255)
  * @param b azul (0-255)
- * @author linux
+ * @author Java Universe
  */
 public record Palette(int r, int g, int b) {
 

@@ -21,7 +21,7 @@ import org.apache.commons.numbers.complex.Complex;
  * Dibuja el conjunto de Mandelbrot (z = z² + c, con c igual al punto del plano) en un panel Swing,
  * coloreando cada punto según el número de iteraciones que tarda en divergir.
  *
- * @author linux
+ * @author Java Universe
  */
 public class MandelbrotSet extends JPanel {
 
